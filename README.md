@@ -11,17 +11,17 @@
 
 This is an independent Collab Project on DCE Simulation + Demographic Weighting for AANHPI Recruitment
 
-Note:
-Since I can't access private patient data, I'm generating synthetic dataa that statistically mirrors the reported Odds Ratios to understand the underlying probability distributions modeled in the Paper.
+This is an independent project focused on the Discrete Choice Experiment (DCE)
+Simulation and Demographic Weighting for AANHPI Recruitment.
 
-Summary: My Goal was to create a data set that mimics the structure of the CARE registry survey, create a mock dataset of 1000 AANHPI seniors that replicates the specific utility weight
-(preferences found in the study, including the unique deviations for Vietnamese participants)By statistically replicating the study's Discrete Choice Experiment, using Monte Carlo simulations,
-this notebook identifies high yield recruiement channels for underrepresented AAPI subgroups.
-My analysis extends the proof that a "one size fits all" digital strategy fails for specific demographics, and as a vietnamese american, I chose to focus on Vietnamese seniors and
-I provided a theoretical segmented budget that could maximize recruitment ROI.
+GOAL: 
+By the end of this, I am making a recommendation for optimal recruitment 
+strategy for Vietnamese populations.
 
-A DCE dataset requires a 'long format' where each choice task has two rows (Option A and Option B)
-
+To accomplish this, I am creating a dataset that mimics the structure of the 
+CARE registry survey (N=1000 AANHPI seniors) and replicates the specific utility 
+weights/preferences found in the study—including unique deviations for 
+Vietnamese participants. 
 
 ## Technical Approach:
 This project demonstrates the following data science competencies:
@@ -35,7 +35,7 @@ This project demonstrates the following data science competencies:
 2.  **The "Hidden" Channel:** Vietnamese participants showed a statistically significant preference for Ethnic Radio/TV.
 3.  **Strategic Recommendation:** A segmented campaign allocating specific resources to radio for Vietnamese targets is projected to increase recruitment yield by **~XX%** (see model outputs) compared to a generic flyer campaign.
 
-## 💻 How to Run This Code
+##  How to Run This Code
 This project is written in Python and designed to run in a Jupyter Notebook environment (Google Colab or Kaggle).
 
 ### Dependencies
