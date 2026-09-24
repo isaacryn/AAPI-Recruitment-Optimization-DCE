@@ -9,7 +9,7 @@
 
 ##  Executive Summary
 
-This is an independent Collab Project on DCE Simulation + Demographic Weighting for AANHPI Recruitment
+This is a UCSF Collab Project on DCE Simulation + Demographic Weighting for AANHPI Recruitment
 
 GOAL: 
 By the end of this, I am making a recommendation for optimal recruitment 
